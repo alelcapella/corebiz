@@ -138,4 +138,39 @@ footer .created img {
   margin-right: 30px;
 }
 
+@media only screen and (max-width: 320px) {
+  footer {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
 
+  footer .address {
+    margin-left: 16px;
+  }
+
+  footer .contact ul li {
+    width: 198px;
+    height: 38px;
+    margin-right: 61px;
+    align-items: center;
+  }
+
+  footer .created {
+    margin-left: 48px;
+  }
+
+  footer .created p {
+    font-size: 10px;
+    line-height: 14px;
+  }
+
+  footer .created div {
+    margin-right: 50px;
+  }
+
+  footer .created img {
+    margin-bottom: 10px;
+  }
+}
