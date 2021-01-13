@@ -1,0 +1,141 @@
+footer {
+  margin: auto;
+  width: 100%;
+  background-color: #000000;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  bottom: 0;
+}
+
+footer .address {
+  color: #fff;
+  margin: auto;
+}
+
+footer .address h3 {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 27px;
+  color: #ffffff;
+}
+
+footer .address h3::after {
+  width: 44.94px;
+  height: 0px;
+  display: block;
+  height: 5px;
+  width: 45px;
+  background-color: #ffffff;
+  content: "";
+  margin-top: 16px;
+  margin-bottom: 20px;
+}
+
+footer .address p {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 12px;
+}
+
+footer .address a {
+  color: #ffffff;
+  text-decoration: none;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 12px;
+  font-size: 13px;
+  display: flex;
+}
+
+footer .address a:last-child {
+  font-family: Nunito;
+  font-size: 13px;
+  line-height: 12px;
+  margin-top: 12px;
+  margin-bottom: 28px;
+}
+
+footer .contact {
+  margin: auto;
+}
+
+footer .contact ul li {
+  width: 195px;
+  height: 38px;
+  background: #ffffff;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer .contact ul li:last-child {
+  margin-top: 25px;
+  text-align: center;
+}
+
+footer .contact ul li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+
+  color: #000000;
+  border-radius: 5px;
+
+  display: flex;
+}
+
+footer .contact ul li:first-child a::before {
+  content: "";
+  background-image: url("image/ico-email.png");
+  height: 16px;
+  width: 16px;
+  background-size: 100%;
+  display: inline-block;
+  margin-right: 18px;
+  background-repeat: no-repeat;
+}
+
+footer .contact ul li:last-child a::before {
+  content: "";
+  background-image: url("image/ico-headphone.png");
+  height: 16px;
+  width: 16px;
+  background-size: 100%;
+  display: inline-block;
+  margin-left: 18px;
+  margin-top: 10px;
+  background-repeat: no-repeat;
+}
+
+footer .created {
+  display: flex;
+  margin: auto;
+}
+
+footer .created p {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10.6017px;
+  line-height: 14px;
+
+  color: #ffffff;
+  margin-bottom: 0;
+}
+
+footer .created img {
+  margin-right: 30px;
+}
+
+
